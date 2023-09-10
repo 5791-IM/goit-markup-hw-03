@@ -62,7 +62,7 @@ img {
 .header-address-section {
   display: flex;
 }
-.header-address-list {
+.address-list {
   display: flex;
   gap: 40px;
 }
