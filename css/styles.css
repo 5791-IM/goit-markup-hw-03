@@ -109,7 +109,7 @@ img {
   color: var(--ocean, #404bbf);
   font-family: inherit;
 }
-.header-address-container {
+.header-address {
   font-style: normal;
 }
 .header-link-address {
