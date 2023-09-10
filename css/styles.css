@@ -62,7 +62,7 @@ img {
   gap: 40px;
 }
 
-.header-address {
+.header-address-text {
   display: flex;
 }
 .header-address-list {
@@ -70,14 +70,15 @@ img {
   gap: 40px;
 }
 
-.header-nav {
+.header-nav-container {
   display: flex;
   align-items: center;
   flex-grow: 1;
   gap: 40px;
 }
 
-.header-logo {
+.header-logo-text {
+  margin-right: 76px;
   display: flex;
   align-items: center;
   color: var(--iris, #4d5ae5);
@@ -89,13 +90,14 @@ img {
   text-transform: uppercase;
 }
 .header-logo-accent {
+  display: flex;
   color: var(--navyblue, #2e2f42);
 }
 .header-logo-accent:hover,
 .header-logo-accent:focus {
   color: var(--ocean, #404bbf);
 }
-.header-link {
+.header-link-item {
   display: inline-block;
   padding: 24px 0;
   color: var(--navyblue, #2e2f42);
@@ -238,7 +240,6 @@ img {
   border: 1px solid #E7E9FC;
   border-top: none;
   text-align: start;
-  width: calc((100%-48px)/3);
   background: var(--white, #fff);
 }
 .our-team-photo {
