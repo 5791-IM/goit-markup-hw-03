@@ -198,8 +198,12 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.advantage-item {
+  width: calc((100%-72px)/4);
+}
 
 .advantage-title {
+  margin-bottom: 8px;
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
