@@ -62,7 +62,7 @@ img {
 .header-address-section {
   display: flex;
 }
-.address-list {
+.contact-information {
   display: flex;
   gap: 40px;
 }
@@ -94,7 +94,7 @@ img {
 .header-logo-accent:focus {
   color: var(--ocean, #404bbf);
 }
-.header-link-item {
+.address-link {
   display: inline-block;
   padding: 24px 0;
   color: var(--navyblue, #2e2f42);
