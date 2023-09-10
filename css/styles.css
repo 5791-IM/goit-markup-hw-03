@@ -36,6 +36,7 @@ img {
 
 
 .container {
+  display: flex;
  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -43,7 +44,6 @@ img {
 
 /*Start Header */
 .header {
-  display: flex;
   border-bottom: 1px solid var(--cornflower, #E7E9FC);
 }
 .header-inner {
