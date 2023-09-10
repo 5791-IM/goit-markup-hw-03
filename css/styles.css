@@ -67,7 +67,7 @@ img {
   gap: 40px;
 }
 
-.header-nav-container {
+.header-nav {
   display: flex;
   align-items: center;
   flex-grow: 1;
