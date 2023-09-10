@@ -36,8 +36,7 @@ img {
 
 
 .container {
-  display: flex;
-  max-width: 1158px;
+ width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -60,7 +59,7 @@ img {
   gap: 40px;
 }
 
-.header-address-text {
+.header-address-section {
   display: flex;
 }
 .header-address-list {
