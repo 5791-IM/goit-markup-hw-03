@@ -281,10 +281,11 @@ img {
 /* End Our team section */
 
 /* Start Our Portfolio section */
-.our-portfolio-section {
+.portfolio-section {
   padding: 120px 0;
 }
-.our-portfolio-title {
+.portfolio-title {
+  margin-top: 120px;
   margin-bottom: 72px;
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -294,23 +295,40 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.our-portfolio-list {
+.portfolio-list {
 display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
 }
-.our-portfolio-section-item {
+.portfolio-section-item {
 flex-basis:calc((100% - 48px) / 3);
 }
-.our-portfolio-subhead {
+.portfolio-progect-card {
+   display: flex;
+    padding-left: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+}
+.portfolio-subhead {
+  display: flex;
+  padding-top: 32px;
+    padding-bottom: 8px;
+    flex-direction: column;
+    align-items: flex-start;
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.our-portfolio-text {
+.portfolio-text {
+  margin-bottom: 120px;
+  padding-bottom: 32px ;
   color: var(--slate, #434455);
   line-height: 1.5;
   letter-spacing: 0.02em;
