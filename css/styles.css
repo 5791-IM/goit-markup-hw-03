@@ -136,10 +136,10 @@ img {
   max-width: 1440px;
   background: var(--navyblue, #2E2F42);
 }
-.hero-inner {
+.hero-inner-container {
   padding: 188px 0 164px;
 }
-.hero-title {
+.hero-title-container {
   margin: 0 auto;
   margin-bottom: 72px;
   max-width: 496px;
@@ -154,11 +154,16 @@ img {
   display: flex;
  justify-content: center;
 }
-.button {
+.hero-action-button {
+  border-radius: 4px;
+  border: none;
+  min-width: 169px;
+  height: 56px;
+  display: block;
   cursor: pointer;
   color: var(--white, #fff);
 
-  background: var(--iris, #4d5ae5);
+  background-color: var(--iris, #4d5ae5);
 
   font-family: inherit;
   font-size: 16px;
@@ -166,8 +171,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.button:hover,
-.button:focus {
+.hero-action-button:hover,
+.hero-action-button:focus {
   background: var(--ocean, #404bbf);
 }
 
