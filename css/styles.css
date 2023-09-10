@@ -133,10 +133,9 @@ img {
 
 .hero-section {
   background: var(--navyblue, #2E2F42);
+  padding: 188px 0;
 }
-.hero-inner-container {
-  padding: 188px 0 164px;
-}
+
 .hero-title-container {
   margin: 0 auto;
   margin-bottom: 72px;
